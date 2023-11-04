@@ -1,0 +1,96 @@
+.productCard{
+    width: 250px;
+    border: #000000 2px solid;
+    border-radius: 2%;
+    margin-inline: 5px;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    background-color: #c1c1c1;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 5px 1px #4c4c4c;
+}
+.cardImage{
+    border: #000000 3px double;
+    width: 200px;
+    height: 200px;
+    /* background-image: url('http://localhost:3000/assets/products/default.jpeg'); */
+    margin-top: 10px;
+    margin-inline: 25px;
+    border-radius: 6px;
+}
+
+.productWrapper{
+    display: grid;
+    /* white-space: nowrap;*/
+    margin-top: 40px;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: repeat(3, 1fr); */
+    gap: 10px;
+}
+.productCardDetailed{
+    width: 80%;
+    border: #000000 2px double;
+    /* border-radius: 5%; */
+    justify-content: center;
+    background-color: rgba(108, 61, 44, 0.5);
+    color: whitesmoke;
+    box-shadow: 10px 10px 7px 0px rgba(85, 48, 40, 0.5);
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-inline: 50px;
+}
+.productCardDetailed img {
+    border: #000000 3px dashed;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+.productDetailedWrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    width: 100%;
+    align-content: rtl;
+}
+.orderModal{
+    background-color: #5c5c5c;
+    color: #71a3e8;
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-inline: 50px;
+    border-radius: 12px;
+    height: 500px;
+    width: 300px;
+    vertical-align: center;
+    /* border: linear-gradient(to bottom, #ffffff, #000000) 2px solid; */
+}
+.orderModal::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      to top left,
+      rgba(255, 255, 255, 0.5) 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+  }
+  .cardIngredients{
+    border-radius: 6px;
+    background: linear-gradient(to top , #64504c,#64504c);
+    /* background-color: #000000; */
+    min-height: 50px;
+    text-align: center;
+    padding: 10px;
+    transition: background 0.8s ease;
+  }
+  .cardIngredients:hover{
+    background: linear-gradient(to top , #ffffff,#64504c);
+    color: whitesmoke;
+  }

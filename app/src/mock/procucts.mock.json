@@ -1,0 +1,64 @@
+
+[
+    {
+        "id": "1",
+        "name": "cookie1",
+        "description": "delicious cookie",
+        "img_src": "http://localhost:3000/assets/products/img1.jpeg",
+        "ingredients": [
+            "ingredient1",
+            "ingredient2"
+        ],
+        "price_per_kilo": 30000
+        
+    },
+    {
+        "id": "2",
+        "name": "cookie2",
+        "description": "dangerous cookie",
+        "img_src": "http://localhost:3000/assets/products/img2.jpeg",
+        "ingredients": [
+            "ingredient121",
+            "ingredient223"
+        ],
+        "price_per_kilo": 10000
+        
+    },
+    {
+        "id": "3",
+        "name": "cookie1",
+        "description": "strange cookie",
+        "img_src": "http://localhost:3000/assets/products/img3.jpeg",
+        "ingredients": [
+            "ingredient1",
+            "ingredient2"
+        ],
+        "price_per_kilo": 90000
+        
+    },
+    {
+        "id": "4",
+        "name": "cookie1",
+        "description": "delicious cookie",
+        "img_src": "http://localhost:3000/assets/products/img4.jpeg",
+        "ingredients": [
+            "ingredient1",
+            "ingredient2",
+            "ingredient3"
+        ],
+        "price_per_kilo": 100000
+        
+    },
+    {
+        "id": "5",
+        "name": "cookie1",
+        "description": "delicious cookiewfqwefcedsahfcvwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwisgtxycdfsgvvvvrrewfwegevewfdw",
+        "img_src": "http://localhost:3000/assets/products/img2.jpeg",
+        "ingredients": [
+            "unknown",
+            "qddf"
+        ],
+        "price_per_kilo": 3000
+        
+    }
+]
